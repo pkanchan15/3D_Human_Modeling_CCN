@@ -9,7 +9,7 @@ Akhil Challa <br>
 Kousik Varma Dandu <br>
 Durga Sri Jonnalagadda<br>
 
-#Introduction <br>
+### Introduction <br>
 
 The Aim of the project is to develop a real time 2 D video to 3 D animated Video. The following implementation is very use full in Video Games, animation and various other purposes. we as a group are playing to use Computer vision to locate the points of the body and store them to give 3-D model in UNITY frame work.
 
