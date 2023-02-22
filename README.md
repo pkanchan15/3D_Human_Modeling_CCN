@@ -90,9 +90,13 @@ The following implementation is very use full in Video Games, animation and vari
 
 ### Current Project Plan:
 
-<ul>
-  <li>
-    In the first week we are planing to learn Computer Vision and other specific frame works </li>
-  <li> Learn to convert the points of the body to 3 D model <li>
-  </ul>
-    
+
+| Week | Description |
+| --- | --- |
+| Week 1 | Literature Survey regarding Pose detection and Human Modeling|
+| Week 2 | Understanding the Mediapipe and other pose detection pre trained frame works |
+| Week 3| preprocessing and object Detection|
+|week 4| Building Pose detection Model|
+| week 5| Testing and improvements|
+| week 6| Accuracy improvement and Deployment|
+| Week 7| Project Documentation
