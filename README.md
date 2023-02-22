@@ -47,10 +47,10 @@ In pose detection, the majority of approaches use the COCO topology, which consi
 ### Applications
 
 1.AUGMENTED REALITY
-2.REHABILITATION AND PHYSIOTHERAPY
-3.AI FITNESS AND SELF-COACHING
-4. Video Games
-5. SURVEILLANCE AND HUMAN ACTIVITY ANALYSIS
+2.REHABILITATION AND PHYSIOTHERAPY <br>
+3.AI FITNESS AND SELF-COACHING <br>
+4. Video Games  <br>
+5. SURVEILLANCE AND HUMAN ACTIVITY ANALYSIS <br>
 
 #### paper reffered:
 
