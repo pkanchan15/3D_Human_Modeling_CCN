@@ -30,9 +30,9 @@ There are many Existing Trained Models that provide descent accuarcy and Modelin
 
 1. Posnet
 2. HRNet
-3.Mask R-CNN
-4.Cascaded Pyramid Network
-5. Media Pipe
+3. Media Pipe
+4.Blaze pose
+
 
 ### Proposed Model:
 
@@ -42,6 +42,15 @@ In pose detection, the majority of approaches use the COCO topology, which consi
 
 
 
+
+
+### Applications
+
+1.AUGMENTED REALITY
+2.REHABILITATION AND PHYSIOTHERAPY
+3.AI FITNESS AND SELF-COACHING
+4. Video Games
+5. SURVEILLANCE AND HUMAN ACTIVITY ANALYSIS
 
 #### paper reffered:
 
@@ -66,6 +75,10 @@ https://www.sciencedirect.com/science/article/pii/S0167865506000389
 
 
 The following implementation is very use full in Video Games, animation and various other purposes. we as a group are playing to use Computer vision to locate the points of the body and store them to give 3-D model in UNITY frame work.
+
+
+
+
 
 ### Current Project Plan:
 
