@@ -45,6 +45,13 @@ steps:
 1.Detecting and extracting 2D key points from the sequence of images. This entails using horizontal and vertical coordinates that build up a skeleton structure. <br>
 2. Converting 2D key points into 3D adding the depth dimension. 
 
+
+##### Architecture:
+
+The following Diagram describes the architecture how the model works
+
+![](https://github.com/pkanchan15/3D_Human_Modeling_CCN/blob/group_8_proposal/Screenshot%202023-02-22%20at%201.09.45%20PM.png)
+
 ### Applications
 
 1.AUGMENTED REALITY
