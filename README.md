@@ -50,7 +50,7 @@ steps:
 
 The following Diagram describes the architecture how the model works
 
-![](https://github.com/pkanchan15/3D_Human_Modeling_CCN/blob/group_8_proposal/Screenshot%202023-02-22%20at%201.09.45%20PM.png)
+![](https://github.com/pkanchan15/3D_Human_Modeling_CCN/blob/group_8_proposal/Screenshot%202023-02-22%20at%201.34.46%20PM.png)
 
 ### Applications
 
