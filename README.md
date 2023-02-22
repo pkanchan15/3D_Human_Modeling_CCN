@@ -40,9 +40,9 @@ For this project we are intented to use media pipe library because of its vast r
 
 In pose detection, the majority of approaches use the COCO topology, which consists of 17 key points. However, the blaze pose detector can detect 33 key points across the human body, including the torso, arms, legs, and face. This increase in key points is important for domain-specific pose estimation models such as those focused on hands, face, and feet. Each key point is predicted with three degrees of freedom, along with a visibility score. The blaze pose model is very fast, taking less than a millisecond to execute, and has better accuracy than many existing models. It is available in two versions: Blaze Pose Lite and Blaze Pose Fully, which provide a trade-off between speed and accuracy.
 
-
-
-
+steps:
+1.Detecting and extracting 2D key points from the sequence of images. This entails using horizontal and vertical coordinates that build up a skeleton structure.
+2. Converting 2D key points into 3D adding the depth dimension. 
 
 ### Applications
 
