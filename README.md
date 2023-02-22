@@ -21,7 +21,9 @@ To create a 3D human model using photographs, it is possible to obtain the silho
 
 When constructing a 3D human model from 2D images, feature points are extracted from the captured images. However, some crucial feature points such as the neck point, thigh point, knee point, and shank point may not be fully utilized. As a result, the deformation of the body shape with limited feature points can impact the quality and realism of the final 3D body shape. To ensure an accurate representation of the 3D human model, it is necessary to use sufficient feature information.
 
-![](https://github.com/Praneethkanchanakuntla/Electronic-Health-Care-System/blob/main/Readme%20images/login%20page.jpeg)
+
+the image decribes about the feature points that are to be extracted from the 2D video
+![](https://github.com/pkanchan15/3D_Human_Modeling_CCN/blob/group_8_proposal/Screenshot%202023-02-22%20at%2012.45.20%20PM.png)
 
 
 
