@@ -23,7 +23,7 @@ When constructing a 3D human model from 2D images, feature points are extracted 
 
 
 the image decribes about the feature points that are to be extracted from the 2D video
-![](https://github.com/pkanchan15/3D_Human_Modeling_CCN/blob/group_8_proposal/Screenshot%202023-02-22%20at%2012.45.20%20PM.png)
+![]()
 
 
 There are many Existing Trained Models that provide descent accuarcy and Modeling in a real time speed. Some of them are 
