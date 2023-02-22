@@ -29,9 +29,15 @@ the image decribes about the feature points that are to be extracted from the 2D
 There are many Existing Trained Models that provide descent accuarcy and Modeling in a real time speed. Some of them are 
 
 1. Posnet
-2. HRNet <br>
-3.Mask R-CNN <br>
+2. HRNet
+3.Mask R-CNN
 4.Cascaded Pyramid Network
+5. Media Pipe
+
+### Proposed Model:
+
+For this project we are intented to use media pipe library because of its vast resources and apis and ease of use.
+
 
 
 
