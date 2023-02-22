@@ -82,10 +82,6 @@ ISSN 0167-8655,
 https://www.sciencedirect.com/science/article/pii/S0167865506000389
 
 
-The following implementation is very use full in Video Games, animation and various other purposes. we as a group are playing to use Computer vision to locate the points of the body and store them to give 3-D model in UNITY frame work.
-
-
-
 
 
 ### Current Project Plan:
