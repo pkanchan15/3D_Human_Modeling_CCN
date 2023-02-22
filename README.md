@@ -26,6 +26,13 @@ the image decribes about the feature points that are to be extracted from the 2D
 ![](https://github.com/pkanchan15/3D_Human_Modeling_CCN/blob/group_8_proposal/Screenshot%202023-02-22%20at%2012.45.20%20PM.png)
 
 
+There are many Existing Trained Models that provide descent accuarcy and Modeling in a real time speed. Some of them are 
+
+1. Posnet
+2. HRNet
+3.Mask R-CNN
+4.Cascaded Pyramid Network
+
 
 
 
@@ -41,7 +48,15 @@ Pages 5012-5018,
 ISSN 0957-4174, https://www.sciencedirect.com/science/article/abs/pii/S0957417411014965
 
 
+2.Bernard Boulay, Francois Brémond, Monique Thonnat,
+Applying 3D human model in a posture recognition system,
+Pattern Recognition Letters,
+Volume 27, Issue 15,
+2006,
+Pages 1788-1796,
+ISSN 0167-8655,
 
+https://www.sciencedirect.com/science/article/pii/S0167865506000389
 
 
 The following implementation is very use full in Video Games, animation and various other purposes. we as a group are playing to use Computer vision to locate the points of the body and store them to give 3-D model in UNITY frame work.
