@@ -90,7 +90,7 @@ https://www.sciencedirect.com/science/article/pii/S0167865506000389
 | Iteration | Description |
 | --- | --- |
 | 1 (March 7) | Understanding the Project Requirements, Libraries and Literature survey|
-|2 (March 21) | Building Model using Media pipe library|
+|2 (March 21) | Building Model using Media pipe library using Web RTC |
 | 3 (April 4) | Testing and improvements|
-| 4 (April  18) | Accuracy improvement and Deployment to cloud |
+| 4 (April  18) | Accuracy improvement and Deployment to Streamlit |
 
