@@ -36,7 +36,7 @@ There are many Existing Trained Models that provide descent accuarcy and Modelin
 
 ### Proposed Model:
 
-For this project we are intented to use media pipe library because of its vast resources and apis and ease of use.
+For this project we are intented to use #### media pipe library because of its vast resources and apis and ease of use.
 
 In pose detection, the majority of approaches use the COCO topology, which consists of 17 key points. However, the blaze pose detector can detect 33 key points across the human body, including the torso, arms, legs, and face. This increase in key points is important for domain-specific pose estimation models such as those focused on hands, face, and feet. Each key point is predicted with three degrees of freedom, along with a visibility score. The blaze pose model is very fast, taking less than a millisecond to execute, and has better accuracy than many existing models. It is available in two versions: Blaze Pose Lite and Blaze Pose Fully, which provide a trade-off between speed and accuracy.
 
@@ -89,8 +89,8 @@ https://www.sciencedirect.com/science/article/pii/S0167865506000389
 
 | Iteration | Description |
 | --- | --- |
-| 1 (March 7) | Understanding the Mediapipe and other pose detection pre trained frame works  and preprocessing and developing Object Detection Model|
-|2 (March 21) | Building Pose detection Model|
+| 1 (March 7) | Understanding the Project Requirements, Libraries and Literature survey|
+|2 (March 21) | Building Model using Media pipe library|
 | 3 (April 4) | Testing and improvements|
-| 4 (April  18) | Accuracy improvement and Deployment and Deployment|
+| 4 (April  18) | Accuracy improvement and Deployment to cloud |
 
