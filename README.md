@@ -89,8 +89,8 @@ https://www.sciencedirect.com/science/article/pii/S0167865506000389
 
 | Iteration | Description |
 | --- | --- |
-| 1 | Understanding the Mediapipe and other pose detection pre trained frame works  and preprocessing and developing Object Detection Model|
-|2 | Building Pose detection Model|
-| 3| Testing and improvements|
-| 4| Accuracy improvement and Deployment and Deployment|
+| 1 (MAR 7) | Understanding the Mediapipe and other pose detection pre trained frame works  and preprocessing and developing Object Detection Model|
+|2  (MAR 21) | Building Pose detection Model|
+| 3 (APR 4) | Testing and improvements|
+| 4 (APR 18) | Accuracy improvement and Deployment and Deployment|
 
