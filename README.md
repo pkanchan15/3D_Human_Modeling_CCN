@@ -87,12 +87,10 @@ https://www.sciencedirect.com/science/article/pii/S0167865506000389
 ### Current Project Plan:
 
 
-| Week | Description |
+| Iteration | Description |
 | --- | --- |
-| Week 1 | Literature Survey regarding Pose detection and Human Modeling|
-| Week 2 | Understanding the Mediapipe and other pose detection pre trained frame works |
-| Week 3| preprocessing and object Detection|
-|week 4| Building Pose detection Model|
-| week 5| Testing and improvements|
-| week 6| Accuracy improvement and Deployment|
-| Week 7| Project Documentation
+| 1 | Understanding the Mediapipe and other pose detection pre trained frame works  and preprocessing and developing Object Detection Model|
+|2 | Building Pose detection Model|
+| 3| Testing and improvements|
+| 4| Accuracy improvement and Deployment and Deployment|
+
