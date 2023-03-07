@@ -1,0 +1,26 @@
+For the project  we have done the requirements analysis.
+
+we have many models to convert 2D to 3D human modeling. As we said in the proposal of the project we have decided to use Mediapipe library.
+The media pipe library will lets model 2d human modeling to the 2-D key points and we planing to Tensorflow JS New technology to model in 3 D. we are looking at various options 
+and we will decide the best fit model for the project.
+
+papers refered:
+
+GHUM & GHUML: Generative 3D Human Shape and Articulated Pose Models
+
+summary:
+
+The authors use two different models for 3D shape and articulated pose estimation: GHUM and GHUML. GHUM represents the 3D shape of a human body using a GPLVM-based model. GHUML is an extension of GHUM that models the articulated pose of a human body in addition to its shape.
+
+The authors evaluated the proposed models on two publicly available datasets: the HumanEva-I dataset and the MPII Human Pose dataset. They compared their results with state-of-the-art methods and found that their approach outperforms the existing methods in terms of accuracy and efficiency.
+
+GHUM is a generative model that estimates 3D human body shape from a set of 3D body scans. The authors used the SMPL body model to represent human body shape in a lower-dimensional latent space. They then trained the GPLVM to learn the mapping between the latent space and the 3D body scans. The resulting model can be used to generate realistic 3D body shapes that are consistent with the input data.
+
+GHUML is an extension of GHUM that incorporates articulated pose estimation. In addition to 3D body scans, GHUML also takes as input 2D joint locations, which are used to estimate the pose of the body. The authors used a modified version of the SMPL body model that can represent articulated poses. They then trained the GPLVM to learn the mapping between the latent space and the 3D body scans and the 2D joint locations. The resulting model can be used to generate realistic 3D body shapes and poses that are consistent with the input data.
+
+The authors evaluated the proposed models on two publicly available datasets: the HumanEva-I dataset and the MPII Human Pose dataset. They compared their results with state-of-the-art methods and found that their approach outperforms the existing methods in terms of accuracy and efficiency. They also conducted experiments to show that the proposed models can generalize well to new individuals and can be used for tasks such as motion capture and virtual try-on.
+In conclusion, the paper presents a promising approach for 3D human shape and articulated pose estimation using generative models. The proposed models are accurate and efficient, and they can be used for a variety of applications in computer vision, robotics, and virtual reality.
+
+
+
+
