@@ -117,7 +117,47 @@ Python provides a range of libraries and tools that can be used to build a 3D hu
 
 
 
+## Media pipe:
 
+MediaPipe Pose Detection is a computer vision library developed by Google that enables real-time human pose estimation using machine learning. The library uses a machine learning algorithm to detect the pose of a person in an image or video and provides 33 landmarks for different body parts such as the nose, shoulders, elbows, wrists, hips, knees, and ankles.
+
+Here is an example of how to use MediaPipe Pose Detection in Python:
+
+import cv2
+import mediapipe as mp
+
+mp_drawing = mp.solutions.drawing_utils
+mp_pose = mp.solutions.pose
+
+cap = cv2.VideoCapture(0)
+with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
+    while cap.isOpened():
+        success, image = cap.read()
+        if not success:
+            print("Ignoring empty camera frame.")
+            continue
+        
+        image = cv2.cvtColor(cv2.flip(image, 1), cv2.COLOR_BGR2RGB)
+        image.flags.writeable = False
+        results = pose.process(image)
+        image.flags.writeable = True
+        image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+
+        if results.pose_landmarks:
+            mp_drawing.draw_landmarks(
+                image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+
+        cv2.imshow("MediaPipe Pose", image)
+        if cv2.waitKey(5) & 0xFF == 27:
+            break
+
+cap.release()
+cv2.destroyAllWindows()
+
+
+In this code snippet, we are capturing the video feed from the camera and passing it through the MediaPipe Pose Detection algorithm to detect the pose of the person in the video. The detected landmarks are then drawn on the video feed using the mp_drawing.draw_landmarks() function. The min_detection_confidence and min_tracking_confidence parameters specify the minimum confidence values required for the algorithm to detect and track the pose landmarks.
+
+Overall, MediaPipe Pose Detection is a powerful tool for real-time human pose estimation that can be easily integrated into Python projects using the mediapipe library.
 
 
 
