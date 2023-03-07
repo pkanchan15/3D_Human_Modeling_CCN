@@ -55,6 +55,24 @@ The limited expressiveness of the model: The model is based on a predefined set 
 
 The limited ability to handle occlusions: The model may struggle to handle occlusions, where parts of the subject's body or face are not visible, as it relies on the observation likelihood to estimate the subject's appearance.
 
+Paper 3: Constructing 3D human model from front and side images
+
+Constructing a 3D human model from front and side images is a challenging computer vision problem that involves recovering the 3D structure of a person's body from 2D images captured from different viewpoints. To address this problem, several approaches have been proposed in recent years that leverage deep learning and geometric modeling techniques.
+
+One common approach is to use multi-view geometry to estimate the camera parameters and triangulate the 3D points corresponding to the person's body parts from the two images. This can be done using techniques such as stereo reconstruction, structure from motion, or bundle adjustment. However, this approach can be computationally expensive and may not work well in cases where the two images have significant differences in viewpoint or lighting.
+
+Another approach is to use deep learning models such as convolutional neural networks (CNNs) or generative adversarial networks (GANs) to directly regress the 3D shape and pose of the person's body from the 2D images. This can be done using methods such as 3D morphable models or mesh-based representations. These approaches have shown promising results in reconstructing realistic and detailed 3D human models, but they also require large amounts of training data and can be computationally intensive.
+
+Overall, constructing a 3D human model from front and side images is a challenging and active research area, with many different approaches being developed and refined. While significant progress has been made in recent years, there is still much work to be done to make these techniques more accurate, efficient, and applicable in real-world scenarios.
+
+
+
+Limitaions:
+One of the main limitations of constructing 3D human models from front and side images is that the process is sensitive to the quality and consistency of the input images. Even minor variations in lighting, background, and pose can significantly impact the accuracy of the resulting 3D model. This can be challenging to achieve in real-world scenarios, where lighting conditions and backgrounds can vary widely.
+
+Paper 4:
+
+
 
 
 
