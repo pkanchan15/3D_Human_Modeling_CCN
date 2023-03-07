@@ -4,9 +4,14 @@ we have many models to convert 2D to 3D human modeling. As we said in the propos
 The media pipe library will lets model 2d human modeling to the 2-D key points and we planing to Tensorflow JS New technology to model in 3 D. we are looking at various options 
 and we will decide the best fit model for the project.
 
-papers refered:
+Literature Survey:
 
 GHUM & GHUML: Generative 3D Human Shape and Articulated Pose Models
+
+Authors: " Hongyi Xu Eduard Gabriel Bazavan Andrei Zanfir
+William T. Freeman Rahul Sukthankar Cristian Sminchisescu"
+
+link: https://openaccess.thecvf.com/content_CVPR_2020/papers/Xu_GHUM__GHUML_Generative_3D_Human_Shape_and_Articulated_Pose_CVPR_2020_paper.pdf
 
 summary:
 
@@ -20,6 +25,42 @@ GHUML is an extension of GHUM that incorporates articulated pose estimation. In 
 
 The authors evaluated the proposed models on two publicly available datasets: the HumanEva-I dataset and the MPII Human Pose dataset. They compared their results with state-of-the-art methods and found that their approach outperforms the existing methods in terms of accuracy and efficiency. They also conducted experiments to show that the proposed models can generalize well to new individuals and can be used for tasks such as motion capture and virtual try-on.
 In conclusion, the paper presents a promising approach for 3D human shape and articulated pose estimation using generative models. The proposed models are accurate and efficient, and they can be used for a variety of applications in computer vision, robotics, and virtual reality.
+
+paper 2:
+Total Capture: A 3D Deformation Model for Tracking Faces, Hands, and Bodies
+
+Authors: " Hanbyul Joo, Tomas Simon, Yaser Sheikh"
+
+Summary:
+
+Total Capture is a research paper that presents a generative 3D deformation model for tracking and reconstructing human faces, hands, and bodies in motion from monocular RGB videos. The proposed model aims to capture not only the articulated pose of the subject but also its shape and appearance. The authors argue that a 3D model is superior to 2D models in terms of accuracy and robustness to occlusions and variations in lighting and background.
+
+The model consists of three components: a shape prior, a motion prior, and an observation likelihood. The shape prior captures the subject's shape variations across different poses, while the motion prior models the temporal consistency of the subject's motion. The observation likelihood estimates the likelihood of the observed image given the subject's pose, shape, and appearance.
+
+The authors trained the model on a large dataset of RGB videos captured from multiple viewpoints, with ground-truth 3D pose, shape, and appearance annotations. They evaluated the model on various benchmarks, including the HumanEva and MPII datasets, and showed that it outperformed state-of-the-art methods in terms of accuracy and robustness.
+
+Total Capture has many potential applications, such as virtual and augmented reality, gaming, animation, and biomechanics. The proposed model can also be extended to other domains, such as animal tracking and industrial automation. However, the model has some limitations, such as the need for accurate 3D annotations during training and the high computational cost of inference. The authors suggest several directions for future research, such as incorporating audio and tactile feedback and exploring more efficient inference algorithms.
+
+Limitations:
+
+While Total Capture presents a highly accurate and robust 3D deformation model for tracking and reconstructing human faces, hands, and bodies in motion, it also has some limitations that should be considered. Some of these limitations are:
+
+The need for accurate 3D annotations during training: The model requires accurate 3D annotations of pose, shape, and appearance during training, which can be time-consuming and expensive to obtain. The annotations also need to be consistent across different subjects and viewpoints, which can be challenging in practice.
+
+The high computational cost of inference: The model involves a large number of parameters, and the inference process can be computationally expensive, limiting its real-time applications.
+
+Limited generalization to novel scenarios: While the model is highly accurate in the domains it was trained on, it may not generalize well to novel scenarios or domains, where the data distributions and variations may differ significantly from the training set.
+
+The limited expressiveness of the model: The model is based on a predefined set of shape and motion priors, which may not capture all the variations and complexities of human motion and appearance.
+
+The limited ability to handle occlusions: The model may struggle to handle occlusions, where parts of the subject's body or face are not visible, as it relies on the observation likelihood to estimate the subject's appearance.
+
+
+
+
+
+
+
 
 
 
