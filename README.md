@@ -6,6 +6,14 @@ The use of 3D modeling has revolutionized the way human beings are represented i
 
 The given video input has taken by frames and the frames are given input to the pose detector of the media pipe and it will return the result that stores the landmarks of the pose from the pose tracker. The landmarks are defined by the Blaze pose which detects around 33 human key points from the body, we have another standard topology called COCO topology which consists of 17 landmarks across the torso, arms, legs, and face. However, the COCO key points only localize to the ankle and wrist points, lacking scale and orientation information for hands and feet, which is vital for practical applications like fitness and dance. The inclusion of more key points is crucial for the subsequent application of domain-specific pose estimation models, like those for hands, faces, or feet.
 
+
+## Software Requirements:
+1. Mini conda   :  https://docs.conda.io/en/latest/miniconda.html
+2. vs code (as IDE) : https://code.visualstudio.com/
+3. cuda tool kit : https://developer.nvidia.com/cuda-downloads
+
+
+
 the diagram shows the project in a more detailed way:
 ![My Remote Image](https://ps.is.tuebingen.mpg.de/uploads/publication/image/22547/smplx_teaser_watermark.png)
 
