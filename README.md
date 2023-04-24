@@ -23,6 +23,7 @@ There are two programs in the project
 steps to run
 
 > ! git clone https://github.com/pkanchan15/3D_Human_Modeling_CCN/tree/maiappp
+
 > 2.%cd app/
 
 > ! pip install -r requirements.txt
