@@ -31,3 +31,8 @@ to run the program
 > ! streamlit run app.py
 
 
+### 2. There is a second part for the project, we would like to acknowledge the contribution the authors of the vibe (Video Inference for Human Body Pose and Shape Estimation) 
+Their contribution to the opensource community is used in our project where we are using their project to make 3d human body model.VIBE uses CNNs to extract image features. The output from the CNN is fed as input to the recurrent neural network, which processes the sequential nature of human motion. Then a temporal encoder and regressor are used to predict the body parameters for the whole input sequence. This whole part is referred to as the Generator(G) model. Now with the help of the AMASS dataset 3D, realistic human motion is achieved for adversarial training and build a motion discriminator(Dm). The motion discriminator takes in both predicted pose sequences along with pose sequences sampled from AMASS. The discriminator tries to differentiate between the fake and real motions by providing a real/fake probability for each input sequence which helps in producing realistic motion. The output of this method is a standard SMPL body model format consisting sequence of pose and shape parameters.
+
+> Source Code – https://github.com/mkocabas/VIBE
+
