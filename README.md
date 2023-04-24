@@ -36,3 +36,15 @@ Their contribution to the opensource community is used in our project where we a
 
 > Source Code – https://github.com/mkocabas/VIBE
 
+Guide to install and run the VIBE project in google collab :
+1. !git clone https://github.com/mkocabas/VIBE.git
+2.%cd VIBE/
+3. !pip install torch numpy==1.17.5
+!pip install git+https://github.com/giacaglia/pytube.git --upgrade
+!pip install -r requirements.txt
+4.!source scripts/prepare_data.sh
+> to run : python demo.py --vid_file third.mp4 --output_folder output/ --sideview
+third.mp4 is video that we want to get 3d human model.
+
+the program requires GPU's so we used google collab for their state of art gpu's and cpu's.
+
