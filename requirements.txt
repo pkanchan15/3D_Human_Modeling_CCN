@@ -1,0 +1,7 @@
+mediapipe
+numpy
+streamlit
+matplotlib
+PyQt5
+opencv-python
+PIL
