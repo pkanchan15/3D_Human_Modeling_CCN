@@ -45,7 +45,9 @@ Guide to install and run the VIBE project in google collab :
 
 !pip install -r requirements.txt
 4.!source scripts/prepare_data.sh
-> to run : python demo.py --vid_file third.mp4 --output_folder output/ --sideview
+
+### to run:
+> python demo.py --vid_file third.mp4 --output_folder output/ --sideview
 
 
 third.mp4 is video that we want to get 3d human model.
