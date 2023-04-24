@@ -40,7 +40,9 @@ Guide to install and run the VIBE project in google collab :
 1. !git clone https://github.com/mkocabas/VIBE.git
 2.%cd VIBE/
 3. !pip install torch numpy==1.17.5
+<br>
 !pip install git+https://github.com/giacaglia/pytube.git --upgrade
+
 !pip install -r requirements.txt
 4.!source scripts/prepare_data.sh
 > to run : python demo.py --vid_file third.mp4 --output_folder output/ --sideview
