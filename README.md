@@ -9,5 +9,6 @@ The given video input has taken by frames and the frames are given input to the 
 There are two programs in the project 
 1. the first part of the project is app, the file contains the code which display the output where the users can upload the video to transform the 3d video, the function get_in_3d() takes the video as input and takes the frames from the video and takes the landmarks from the video and gets the stream of landmarks and we convert these stream of landmarks points and connect together by connecting the points and convert into video.
 
+> ! pip install -r requirements.txt
 
 
