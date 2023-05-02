@@ -37,5 +37,7 @@ Their contribution to the opensource community is used in our project where we a
 the demo_file gives the detailed instructions of how to install the nessecity libraries of the project --> 2nd part.
 
 
+The file gives the access of google collab : https://colab.research.google.com/drive/1vvaSAfPpR49nqcpcIjr2vqpVc0z_Bs30#scrollTo=Rs6UTvVO6Fxf
+
 the program requires GPU's so we used google collab for their state of art gpu's and cpu's.
 
